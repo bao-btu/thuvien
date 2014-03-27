@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2013-10-23 14:12+0700\n"
-"PO-Revision-Date: 2014-03-14 09:35+0700\n"
+"PO-Revision-Date: 2014-03-27 07:43+0700\n"
 "Last-Translator: \n"
 "Language-Team:  <duy13010@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -13,6 +13,12 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Language: vi_VN\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Thu vien BTU : Thong tin dat truoc tu"
+msgstr "Thu vien BTU : Thong tin dat truoc tu"
+
+msgid "Titles to reserve"
+msgstr "Tài liệu đăng ký"
 
 msgid "Huong dan opac"
 msgstr "Hướng dẫn tra cứu"
@@ -36,7 +42,7 @@ msgid "Thong ke luot SV muon"
 msgstr "Thống kê số lượng SV mượn"
 
 msgid "Sach moi"
-msgstr "Sách mới"
+msgstr "Tài liệu mới"
 
 msgid "Tra cuu"
 msgstr "Tra cứu tài liệu"
@@ -187,7 +193,7 @@ msgstr "Mã hóa"
 
 #: template/lightweight/detail_template.php:8
 msgid "Title"
-msgstr "Tên sách"
+msgstr "Tên tài liệu"
 
 #: template/lightweight/detail_template.php:25
 msgid "Author(s)"
@@ -203,7 +209,7 @@ msgstr "Phân loại"
 
 #: template/lightweight/detail_template.php:40
 msgid "GMD"
-msgstr "Loại sách"
+msgstr "Loại tài liệu"
 
 #: template/lightweight/detail_template.php:44
 msgid "Language"
@@ -239,7 +245,7 @@ msgstr "Tập tin đính kèm"
 
 #: template/lightweight/detail_template.php:80
 msgid "Availability"
-msgstr "Số lượng sách trong kho"
+msgstr "Số lượng tài liệu trong kho"
 
 #: template/default/detail_template.php:85
 msgid "Custom Field 1"
@@ -1034,7 +1040,7 @@ msgstr "Bạn chắc chắn gia hạn cho "
 #: admin/modules/circulation/pop_loan_receipt.php:141
 #: admin/modules/circulation/quick_return.php:64
 msgid "Return"
-msgstr "Trả sách"
+msgstr "Trả tài liệu"
 
 #: admin/modules/circulation/loan_list.php:96
 msgid "Col. Type"
@@ -1288,7 +1294,7 @@ msgstr "Cho mượn"
 
 #: admin/modules/circulation/quick_return.php:53
 msgid "Quick Return is disabled"
-msgstr "Trả sách nhanh đã bị vô hiệu"
+msgstr "Trả tài liệu nhanh đã bị vô hiệu"
 
 #: admin/modules/circulation/quick_return.php:59
 msgid "Insert an item ID to return collection with keyboard or barcode reader"
@@ -1622,7 +1628,7 @@ msgstr "Tái đồng bộ"
 
 #: admin/modules/stock_take/submenu.php:36
 msgid "Resynchronize bibliographic data with current stock take"
-msgstr "Tái đồng bộ hóa dữ liệu sách với kiểm tra nguồn dự trữ"
+msgstr "Tái đồng bộ hóa dữ liệu tài liệu với kiểm tra nguồn dự trữ"
 
 #: admin/modules/stock_take/submenu.php:37
 msgid "Upload List"
@@ -1953,7 +1959,7 @@ msgstr "Tóm tắt dữ liệu thành viên"
 #: admin/modules/reporting/customs/customs_report_list.inc.php:28
 #: admin/modules/reporting/customs/class_recap.php:59
 msgid "Custom Recapitulations"
-msgstr "Thống kê sách theo tùy chọn"
+msgstr "Thống kê tài liệu theo tùy chọn"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:28
 msgid "Title and Collection recapitulation based on classification and others"
@@ -1965,7 +1971,7 @@ msgstr "Danh sách chủ đề"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:29
 msgid "List of bibliographic titles"
-msgstr "Danh sách chủ đề sách"
+msgstr "Danh sách chủ đề tài liệu"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:30
 #: admin/modules/reporting/customs/item_titles_list.php:60
@@ -1978,7 +1984,7 @@ msgstr "Danh sách bộ sưu tập / chủ đề"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:31
 msgid "Items Usage Statistics"
-msgstr "Thống kê lượt mượn của mỗi đầu sách / năm"
+msgstr "Thống kê lượt mượn của mỗi đầu tài liệu / năm"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:31
 msgid "List of Collection/items usage statistic"
@@ -2094,7 +2100,7 @@ msgstr "Chọn ẩn bộ lọc"
 
 #: admin/modules/reporting/customs/class_recap.php:96
 msgid "Items"
-msgstr "Sách"
+msgstr "Tài liệu"
 
 #: admin/modules/reporting/customs/class_recap.php:261
 msgid "Title and Collection Recap by"
@@ -2118,7 +2124,7 @@ msgstr "Tên đăng nhập"
 
 #: admin/modules/reporting/customs/staff_act.php:95
 msgid "Bibliography Data Entry"
-msgstr "Nhập dữ liệu sách"
+msgstr "Nhập dữ liệu tài liệu"
 
 #: admin/modules/reporting/customs/staff_act.php:96
 msgid "Item Data Entry"
@@ -2332,7 +2338,7 @@ msgstr "Tác giả"
 
 #: admin/modules/reporting/customs/titles_list.php:157
 msgid "Copies"
-msgstr "Số lượng sách"
+msgstr "Số lượng tài liệu"
 
 #: admin/modules/reporting/customs/visitor_report_day.php:70
 msgid "Visitor Report"
@@ -2534,7 +2540,7 @@ msgstr "Tra cứu thông tin"
 #: admin/modules/master_file/submenu.php:37
 #: admin/modules/master_file/doc_language.php:129
 msgid "Doc. Language"
-msgstr "Ngôn ngữ viết sách"
+msgstr "Ngôn ngữ viết tài liệu"
 
 #: admin/modules/master_file/submenu.php:37
 msgid "Document Content Language"
@@ -2702,44 +2708,46 @@ msgstr "Bạn đang chỉnh sửa dữ liệu ngôn ngữ"
 
 #: admin/modules/master_file/label.php:115
 msgid "Label Data Successfully Updated"
-msgstr "Cập nhật thành công dữ liệu nhãn sách "
+msgstr "Cập nhật thành công dữ liệu nhãn tài liệu "
 
 #: admin/modules/master_file/label.php:117
 msgid "Label Data FAILED to Updated. Please Contact System Administrator"
 msgstr ""
-"Cập nhật thất bại dữ liệu nhãn sách. Vui lòng liên hệ với quản trị hệ thống"
+"Cập nhật thất bại dữ liệu nhãn tài liệu. Vui lòng liên hệ với quản trị hệ "
+"thống"
 
 #: admin/modules/master_file/label.php:123
 msgid "New Label Data Successfully Saved"
-msgstr "Lưu  thành công dữ liệu nhãn sách mới"
+msgstr "Lưu  thành công dữ liệu nhãn tài liệu mới"
 
 #: admin/modules/master_file/label.php:125
 msgid "Label Data FAILED to Save. Please Contact System Administrator"
-msgstr "Lưu thất bại dữ liệu nhãn sách. Vui lòng liên hệ với quản trị hệ thống"
+msgstr ""
+"Lưu thất bại dữ liệu nhãn tài liệu. Vui lòng liên hệ với quản trị hệ thống"
 
 #: admin/modules/master_file/label.php:166
 msgid "Add New Label"
-msgstr "Thêm nhãn sách mới"
+msgstr "Thêm nhãn tài liệu mới"
 
 #: admin/modules/master_file/label.php:167
 msgid "Label List"
-msgstr "Danh sách nhãn sách"
+msgstr "Danh sách nhãn tài liệu"
 
 #: admin/modules/master_file/label.php:209
 #: admin/modules/master_file/label.php:240
 #: admin/modules/master_file/label.php:244
 msgid "Label Name"
-msgstr "Tên nhãn sách"
+msgstr "Tên nhãn tài liệu"
 
 #: admin/modules/master_file/label.php:222
 #: admin/modules/master_file/label.php:239
 #: admin/modules/master_file/label.php:243
 msgid "Label Description"
-msgstr "Mô tả nhãn sách"
+msgstr "Mô tả nhãn tài liệu"
 
 #: admin/modules/master_file/label.php:226
 msgid "You are going to edit Label data"
-msgstr "Bạn đang chỉnh sửa dưliệu nhãn sách"
+msgstr "Bạn đang chỉnh sửa dữ liệu nhãn tài liệu"
 
 #: admin/modules/master_file/index.php:60
 msgid "GMD Code And Name can't be empty"
@@ -3151,7 +3159,7 @@ msgstr "Sách Indexes"
 
 #: admin/modules/system/submenu.php:34
 msgid "Bibliographic Indexes management"
-msgstr "Quản lý liệt kê sách"
+msgstr "Quản lý liệt kê tài liệu"
 
 #: admin/modules/system/submenu.php:35 admin/modules/system/module.php:144
 msgid "Modules"
@@ -3355,7 +3363,7 @@ msgstr ""
 
 #: admin/modules/system/biblio_indexes.php:109
 msgid "Bibliographic Index"
-msgstr "Mục lục sách"
+msgstr "Mục lục tài liệu"
 
 #: admin/modules/system/biblio_indexes.php:112
 msgid "Emptying Index"
@@ -3594,7 +3602,7 @@ msgstr "Chắc chắn máy tính của bạn đang kết nối Internet"
 #: admin/modules/bibliography/checkout_item.php:51
 #: admin/modules/bibliography/submenu.php:32
 msgid "Checkout Items"
-msgstr "Kiểm tra sách"
+msgstr "Kiểm tra tài liệu"
 
 #: admin/modules/bibliography/iframe_author.php:70
 msgid "Author succesfully removed!"
@@ -3607,12 +3615,12 @@ msgstr "Gỡ bỏ tác gỉa"
 #: admin/modules/bibliography/submenu.php:27
 #: admin/modules/bibliography/index.php:349
 msgid "Bibliographic"
-msgstr "Tựa sách"
+msgstr "Tựa tài liệu"
 
 #: admin/modules/bibliography/submenu.php:28
 #: admin/modules/bibliography/index.php:354
 msgid "Bibliographic List"
-msgstr "Danh sách tựa sách"
+msgstr "Danh sách tựa tài liệu"
 
 #: admin/modules/bibliography/submenu.php:28
 msgid "Show Existing Bibliographic Data"
@@ -3620,7 +3628,7 @@ msgstr "Trình bày dữ liệu sách có sẵn"
 
 #: admin/modules/bibliography/submenu.php:31
 msgid "Item List"
-msgstr "Danh sách sách"
+msgstr "Danh sách tài liệu"
 
 #: admin/modules/bibliography/submenu.php:31
 msgid "Show List of Library Items"
@@ -3662,15 +3670,15 @@ msgstr "Lấy dữ liệu từ dịch vụ web SLIMS khác"
 #: admin/modules/bibliography/dl_print.php:203
 #: admin/modules/bibliography/dl_print.php:213
 msgid "Labels Printing"
-msgstr "In nhãn sách"
+msgstr "In nhãn tài liệu"
 
 #: admin/modules/bibliography/submenu.php:38
 msgid "Print Document Labels"
-msgstr "In tệp tài liệu nhãn sách"
+msgstr "In tệp tài liệu nhãn tài liệu"
 
 #: admin/modules/bibliography/submenu.php:39
 msgid "Item Barcodes Printing"
-msgstr "In mã sách"
+msgstr "In mã tài liệu"
 
 #: admin/modules/bibliography/submenu.php:39
 msgid "Print Item Barcodes"
@@ -3678,23 +3686,23 @@ msgstr "In thư mục mã vạch"
 
 #: admin/modules/bibliography/submenu.php:40
 msgid "Data Export"
-msgstr "Xuất dữ liệu tựa sách"
+msgstr "Xuất dữ liệu tựa tài liệu"
 
 #: admin/modules/bibliography/submenu.php:40
 msgid "Export Bibliographic Data To CSV format"
-msgstr "Xuất dữ liệu sách dưới dạng thức CSV"
+msgstr "Xuất dữ liệu tài liệu dưới dạng thức CSV"
 
 #: admin/modules/bibliography/submenu.php:41
 msgid "Data Import"
-msgstr "Nhập dữ liệu tựa sách"
+msgstr "Nhập dữ liệu tựa tài liệu"
 
 #: admin/modules/bibliography/submenu.php:41
 msgid "Import Data to Bibliographic Database from CSV file"
-msgstr "Nhập dữ liệu sách từ tệp tin CSV"
+msgstr "Nhập dữ liệu tài liệu từ tệp tin CSV"
 
 #: admin/modules/bibliography/submenu.php:42
 msgid "Item Export"
-msgstr "Xuất dữ liệu sách"
+msgstr "Xuất dữ liệu tài liệu"
 
 #: admin/modules/bibliography/submenu.php:42
 msgid "Export Item/Copies data To CSV format"
@@ -3702,7 +3710,7 @@ msgstr "Xuất thư mục/ Sao chép dữ liệu từ dạng thức CSV"
 
 #: admin/modules/bibliography/submenu.php:43
 msgid "Item Import"
-msgstr "Nhập dữ liệu sách"
+msgstr "Nhập dữ liệu tài liệu"
 
 #: admin/modules/bibliography/submenu.php:43
 msgid "Import Data to Item/Copies database from CSV file"
@@ -3717,7 +3725,7 @@ msgid ""
 "Import for bibliographics data from CSV file. For guide on CVS fields order "
 "and format please refer to documentation or visit <a href=\"http://slims.web."
 "id\" target=\"_blank\">Official Website</a>"
-msgstr "Nhập dữ liệu sách từ tệp tin CSV."
+msgstr "Nhập dữ liệu tài liệu từ tệp tin CSV."
 
 #: admin/modules/bibliography/z3950.php:279
 #: admin/modules/bibliography/index.php:358
@@ -3891,21 +3899,22 @@ msgstr "Tiêu đề không để trống"
 
 #: admin/modules/bibliography/index.php:202
 msgid "Bibliography Data Successfully Updated"
-msgstr "Cập nhật thành công dữ liệu sách"
+msgstr "Cập nhật thành công dữ liệu tài liệu"
 
 #: admin/modules/bibliography/index.php:222
 msgid ""
 "Bibliography Data FAILED to Updated. Please Contact System Administrator"
 msgstr ""
-"Cập nhật dữ liệu sách bị thất bại. Vui lòng liên hệ với quản trị hệ thống"
+"Cập nhật dữ liệu tài liệu bị thất bại. Vui lòng liên hệ với quản trị hệ thống"
 
 #: admin/modules/bibliography/index.php:255
 msgid "New Bibliography Data Successfully Saved"
-msgstr "Lưu thành công dữ liệu sách mới"
+msgstr "Lưu thành công dữ liệu tài liệu mới"
 
 #: admin/modules/bibliography/index.php:269
 msgid "Bibliography Data FAILED to Save. Please Contact System Administrator"
-msgstr "Lưu dữ liệu sách bị thất bại. Vui lòng liên hệ với quản trị hệ thống"
+msgstr ""
+"Lưu dữ liệu tài liệu bị thất bại. Vui lòng liên hệ với quản trị hệ thống"
 
 #: admin/modules/bibliography/index.php:358
 msgid "All Fields"
@@ -3917,7 +3926,7 @@ msgstr "Chủ đề"
 
 #: admin/modules/bibliography/index.php:366
 msgid "Upload Selected Bibliographic data to Union Catalog Server*"
-msgstr "Lựa chọn dữ liệu sách tải lên danh mục của máy chủ"
+msgstr "Lựa chọn dữ liệu tài liệu tải lên danh mục của máy chủ"
 
 #: admin/modules/bibliography/index.php:441
 msgid "Items/Copies"
@@ -3977,7 +3986,7 @@ msgstr "Thiết lập trang chủ"
 
 #: admin/modules/bibliography/index.php:607
 msgid "You are going to edit biblio data"
-msgstr "Bạn đang chỉnh sửa dữ liệu sách"
+msgstr "Bạn đang chỉnh sửa dữ liệu tài liệu"
 
 #: admin/modules/bibliography/pop_topic.php:98
 msgid "Subject FAILED to Add. Please Contact System Administrator"
@@ -3993,7 +4002,7 @@ msgstr "Thêm đề tài"
 
 #: admin/modules/bibliography/pop_topic.php:140
 msgid "Keyword"
-msgstr "Nhập tên sách tại đây ..."
+msgstr "Nhập tên tài liệu tại đây ..."
 
 #: admin/modules/bibliography/pop_topic.php:154
 msgid "Type to search for existing topics or to add a new one"
@@ -4001,7 +4010,7 @@ msgstr "Kiểu tìm kiếm chủ đề hiện tại hoặc thêm một chủ đ�
 
 #: admin/modules/bibliography/pop_topic.php:156
 msgid "Insert To Bibliography"
-msgstr "Chèn thêm sách"
+msgstr "Chèn thêm tài liệu"
 
 #: admin/modules/bibliography/dl_print.php:218
 msgid "Print Labels for Selected Data"
@@ -4045,7 +4054,7 @@ msgstr "In mã vạch ừ dữ liệu đã chọn"
 
 #: admin/modules/bibliography/export.php:147
 msgid "There is no record in bibliographic database yet, Export FAILED!"
-msgstr "Không thể ghi dữ liệu sách, xuất dữ liệu bị lỗi"
+msgstr "Không thể ghi dữ liệu tài liệu, xuất dữ liệu bị lỗi"
 
 #: admin/modules/bibliography/export.php:157
 msgid "EXPORT TOOL"
@@ -4053,7 +4062,7 @@ msgstr "Công cụ xuất"
 
 #: admin/modules/bibliography/export.php:160
 msgid "Export bibliographics data to CSV file"
-msgstr "Xuất dữ liệu sách đến tệp tin CSV"
+msgstr "Xuất dữ liệu tài liệu ra tệp tin CSV"
 
 #: lib/detail.inc.php:172
 msgid "Click to view others documents with this author"
@@ -4077,7 +4086,7 @@ msgstr "Đánh dấu "
 
 #: lib/biblio_list_model.inc.php:294
 msgid "Put marked selection into basket"
-msgstr "Đánh dấu sách lựa chọn bỏ vào giỏ sách"
+msgstr "Đánh dấu tài liệu lựa chọn bỏ vào giỏ sách"
 
 #: lib/contents/attachment_list.php:54
 msgid "No Attachment"
@@ -4154,15 +4163,15 @@ msgstr "Giữ tiêu đề trong giỏ sách"
 
 #: lib/contents/member.inc.php:373
 msgid "Clear Basket"
-msgstr "Xóa giỏ sách"
+msgstr "Xóa giỏ tài liệu"
 
 #: lib/contents/member.inc.php:374
 msgid "Remove selected title(s) from Basket"
-msgstr "Loại bỏ tiêu đề lựa chọn từ giỏ sách"
+msgstr "Loại bỏ tiêu đề lựa chọn từ giỏ tài liệu"
 
 #: lib/contents/member.inc.php:376
 msgid "title(s) on basket"
-msgstr "Tiêu đề giỏ sách"
+msgstr "Tiêu đề giỏ tài liệu"
 
 #: lib/contents/member.inc.php:398
 msgid "Your Membership Already EXPIRED! Please extend your membership."
@@ -4415,7 +4424,7 @@ msgid "Loading"
 msgstr "Đang lọc dữ liệu"
 
 msgid "Book's Detail"
-msgstr "Chi tiết sách"
+msgstr "Chi tiết tài liệu"
 
 msgid "Master File"
 msgstr "Thành phần tài liệu"

@@ -130,7 +130,7 @@ if (isset($_POST['doImport'])) {
                     //$location = $location?'\''.$location.'\'':'NULL';
                     $location = $field[7]?'\''.$field[7].'\'':'NULL';
                     $order_date = $field[8]?'\''.$field[8].'\'':'NULL';
-                    $item_status = utility::getID($dbs, 'mst_item_status', 'item_status_id', 'item_status_name', $field[9], $stat_id_cache);
+                    $item_status = utility::getID($dbs, 'mst_item_status', 'item_status_id', 'item_status_id', $field[9], $stat_id_cache);
                     $item_status = $item_status?'\''.$item_status.'\'':'NULL';
                     $site = $field[10]?'\''.$field[10].'\'':'NULL';
                     $source = $field[11]?'\''.$field[11].'\'':'NULL';

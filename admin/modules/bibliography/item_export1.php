@@ -87,7 +87,7 @@ if (isset($_POST['doExport'])) {
             i.item_code, i.call_number, ct.coll_type_name,
             i.inventory_code, i.received_date, spl.supplier_name,
             i.order_no, loc.location_id,
-            i.order_date, st.item_status_name, i.site,
+            i.order_date, st.item_status_id, i.site,
             i.source, i.invoice, i.price, i.price_currency, i.invoice_date,
             i.input_date, i.last_update, b.title
             FROM item AS i

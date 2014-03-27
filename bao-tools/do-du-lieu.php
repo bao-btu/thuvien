@@ -233,11 +233,11 @@ require LIB.'ip_based_access.inc.php';
 				if (strlen($khoDoc) > 15)
 				{				                        
 					$arrKhoDoc = themMaTaiLieu($khoDoc);				
-                    importBieuGhiTheoMang($biblio_id, $arrKhoDoc, $giaTien, $curr_datetime, "PD", "CD", $dbs);
+                    importBieuGhiTheoMang($biblio_id, $arrKhoDoc, $giaTien, $curr_datetime, "PD", "MD", $dbs);
 				}        				                  
                 else
                 {
-                    importBieuGhi($biblio_id, $khoDoc, $giaTien, $curr_datetime, "PD", "CD", $dbs);   
+                    importBieuGhi($biblio_id, $khoDoc, $giaTien, $curr_datetime, "PD", "MD", $dbs);   
                 }
 			     
 			}		
